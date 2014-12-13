@@ -1,11 +1,11 @@
-0.  TODO
-1.  TODO
-2.  TODO
-3.  TODO
-4.  TODO
-5.  TODO
-6.  TODO
-7.  TODO
-8.  TODO
-9.  TODO
-10. TODO
+0. The longest word in the english dictionary
+1. getrusage -- get information about resource utilization
+2. 16 members
+3. getrusage expects a pointer
+4. First the file is opened
+5.
+6.
+7.
+8.
+9.
+10.
