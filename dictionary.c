@@ -1,12 +1,3 @@
-/****************************************************************************
- * dictionary.c
- *
- * Computer Science 50
- * Problem Set 6
- *
- * Implements a dictionary's functionality.
- ***************************************************************************/
-
 #include <stdbool.h>
 
 #include "dictionary.h"
@@ -25,8 +16,12 @@ bool check(const char* word)
  */
 bool load(const char* dictionary)
 {
-    // TODO
-    return false;
+    // create a hash table; 0-25
+    // have seperate linked lists for each bucket
+    // take the first letter of a charecter and convert it to 0 - 25
+    // insert each word into its proper bucket then linked list
+    // insert each word alphabetically into its proper linked list
+    // iterate till end of file
 }
 
 /**
