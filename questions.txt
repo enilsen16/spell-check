@@ -2,9 +2,9 @@
 1. getrusage -- get information about resource utilization
 2. 16 members
 3. getrusage expects a pointer
-4. First the file is opened
-5.
-6.
+4. Each time the for loop iterates, a word consiting only of alphabetical charecters and apostrophes is stored in an array. If the length of the word is greater than the word being checked it is forgotten. A count is kept to keep track of the amount of charecters in each word. If the word in the file to be checked contains numbers it is also skipped. if the count is larger than 0 a word was found and it is check for misspellings, if misspelled it is printed.
+5. This is to make sure that no unallowed charecters are compared.
+6. Regardless if the program crashes there will be values for check and load.
 7.
 8.
 9.
