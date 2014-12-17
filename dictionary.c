@@ -36,7 +36,7 @@ bool load(const char* dictionary)
   {
     node* new_node = malloc(sizeof(node));
     fscanf(fp, "%s", new_node -> word);
-    value = new_node -> word[0]-97;
+    value = new_node->word[0]-97;
     if (hash[value] == NULL)
     {
       new_node -> next = NULL;
@@ -48,7 +48,7 @@ bool load(const char* dictionary)
 
       while (current != NULL && current->word > new_node->word)
       {
-        node* previous = current;
+        previous = &current;
         current = previous->next;
       }
       new_node -> next = current;
@@ -59,7 +59,7 @@ bool load(const char* dictionary)
       } else {
         previous -> next = new_node;
       }
-     return true;  
+     return true;
     }
   }
   return false;
